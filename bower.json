@@ -1,0 +1,20 @@
+{
+  "name": "halpin-site",
+  "description": "Justin Halpin musician site",
+  "main": "index.js",
+  "authors": [
+    "Alex Horton <alexhortonmusic@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
