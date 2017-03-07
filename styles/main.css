@@ -1,0 +1,41 @@
+.landing {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/justin.jpg");
+  background-size: cover;
+  background-position: 46.5% 50%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .landing .top {
+    display: flex;
+    flex-direction: column; }
+    .landing .top h1 {
+      font-family: 'giraffeyregular', sans-serif;
+      text-align: center;
+      color: white;
+      font-size: 5rem;
+      margin-top: 35px;
+      margin-bottom: 10px; }
+    .landing .top nav {
+      width: 50%;
+      align-self: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      .landing .top nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: lighter; }
+  .landing .play {
+    align-self: flex-end;
+    width: 300px;
+    margin: 0 auto 10px; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=main.css.map */
