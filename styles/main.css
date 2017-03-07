@@ -59,12 +59,13 @@
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/smoke.jpg");
   background-size: cover;
   background-position: top;
-  max-height: 100vh;
+  max-height: 110vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
   .music .projects {
+    width: 320px;
     margin: 40px auto 0; }
     .music .projects .solo {
       color: white;
@@ -73,18 +74,14 @@
       font-size: 3rem;
       font-family: 'giraffeyregular', sans-serif;
       width: 100%; }
-    .music .projects div {
-      width: 99%;
-      margin: 0 auto; }
-      .music .projects div .vid {
-        min-width: 300px;
-        min-height: 180px;
-        width: 60%;
-        border: 1px solid white;
-        margin: 30px auto 0; }
-      .music .projects div p {
-        color: white;
-        margin-top: 0; }
+    .music .projects div .vid {
+      min-width: 320px;
+      min-height: 180px;
+      border: 1px solid white;
+      margin: 30px auto 0; }
+    .music .projects div p {
+      color: white;
+      margin-top: 0; }
   .music footer {
     align-self: center;
     margin: 40px 0 30px; }
