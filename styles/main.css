@@ -32,6 +32,26 @@
     width: 300px;
     margin: 0 auto 10px; }
 
+.about {
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  overflow: hidden; }
+  .about .headshot {
+    margin-top: 40px; }
+    .about .headshot img {
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+      width: 50%; }
+  .about h1 {
+    text-align: center; }
+  .about p {
+    width: 80%;
+    margin: 0 auto 20px;
+    text-align: justify;
+    font-size: 1.3rem;
+    line-height: 30px; }
+
 body {
   font-family: 'Montserrat', sans-serif;
   padding: 0;
