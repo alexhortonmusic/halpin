@@ -23,8 +23,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-around; }
-      .landing .top nav a {
-        text-decoration: none;
+      .landing .top nav p {
         color: white;
         font-weight: lighter; }
   .landing .play {
